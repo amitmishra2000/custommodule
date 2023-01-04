@@ -1,0 +1,8 @@
+uuid: 00a5aa22-c277-4cb2-b9ba-612d7c07e347
+langcode: en
+status: true
+dependencies: {  }
+name: Mechanism
+vid: product_mechanism
+description: ''
+weight: 0

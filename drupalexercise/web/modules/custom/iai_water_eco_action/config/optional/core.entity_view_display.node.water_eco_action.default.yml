@@ -1,0 +1,63 @@
+uuid: d4bc7a54-405c-4f16-b38f-a16fd056ef6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.water_eco_action.field_contact_email
+    - field.field.node.water_eco_action.field_coordinates
+    - field.field.node.water_eco_action.field_description
+    - field.field.node.water_eco_action.field_status
+    - field.field.node.water_eco_action.field_urgency
+    - node.type.water_eco_action
+  module:
+    - options
+    - user
+id: node.water_eco_action.default
+targetEntityType: node
+bundle: water_eco_action
+mode: default
+content:
+  field_contact_email:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_coordinates:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_description:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_status:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_urgency:
+    weight: 105
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,31 @@
+uuid: a289baa9-938a-4ade-a72a-ce51d3a3d3b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.water_eco_action.field_contact_email
+    - field.field.node.water_eco_action.field_coordinates
+    - field.field.node.water_eco_action.field_description
+    - field.field.node.water_eco_action.field_status
+    - field.field.node.water_eco_action.field_urgency
+    - node.type.water_eco_action
+  module:
+    - user
+id: node.water_eco_action.teaser
+targetEntityType: node
+bundle: water_eco_action
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_contact_email: true
+  field_coordinates: true
+  field_description: true
+  field_status: true
+  field_urgency: true
+  langcode: true

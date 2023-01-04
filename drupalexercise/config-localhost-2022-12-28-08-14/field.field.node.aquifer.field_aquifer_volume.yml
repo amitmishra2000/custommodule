@@ -1,0 +1,19 @@
+uuid: ff8bedd7-c633-49f3-b3d0-7839bab75439
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_aquifer_volume
+    - node.type.aquifer
+id: node.aquifer.field_aquifer_volume
+field_name: field_aquifer_volume
+entity_type: node
+bundle: aquifer
+label: 'Aquifer Volume'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

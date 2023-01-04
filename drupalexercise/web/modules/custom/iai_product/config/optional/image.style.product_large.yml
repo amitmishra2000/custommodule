@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: product_large
+label: 'Product Large'
+effects:
+  0ad01539-11e9-432d-98d8-6f61dccabdfa:
+    uuid: 0ad01539-11e9-432d-98d8-6f61dccabdfa
+    id: image_scale
+    weight: 1
+    data:
+      width: 480
+      height: null
+      upscale: false

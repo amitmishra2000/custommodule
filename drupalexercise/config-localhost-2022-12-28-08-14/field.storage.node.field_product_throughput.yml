@@ -1,0 +1,20 @@
+uuid: 2f533f95-eea8-43ec-b6f0-c34ab074314d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_product_throughput
+field_name: field_product_throughput
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
