@@ -1,0 +1,28 @@
+uuid: ad26310f-75a1-40e6-a6f3-d9f67f566046
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_urgency
+    - node.type.water_eco_action
+id: node.water_eco_action.field_urgency
+field_name: field_urgency
+entity_type: node
+bundle: water_eco_action
+label: Urgency
+description: "low|Low\r\nnormal|Normal\r\nhigh|High"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

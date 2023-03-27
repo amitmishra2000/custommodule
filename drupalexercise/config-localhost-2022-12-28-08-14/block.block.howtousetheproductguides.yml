@@ -1,0 +1,33 @@
+uuid: c743e867-970e-4084-b816-529fb592938e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:addb73a9-c140-45ac-82bd-f7a9f1ac40a1'
+  module:
+    - block_content
+    - ctools
+  theme:
+    - bartik
+id: howtousetheproductguides
+theme: bartik
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'block_content:addb73a9-c140-45ac-82bd-f7a9f1ac40a1'
+settings:
+  id: 'block_content:addb73a9-c140-45ac-82bd-f7a9f1ac40a1'
+  label: 'How to use the product guides'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      book: book
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

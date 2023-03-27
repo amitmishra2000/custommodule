@@ -1,0 +1,23 @@
+uuid: 13d31992-c06d-47e1-9971-3e1a4f87d053
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - node
+id: product_path_aliases_in_english
+label: 'Product path aliases in English'
+type: 'canonical_entities:node'
+pattern: '/product/[node:title]'
+selection_criteria:
+  d0aa291b-4215-46a0-96dd-a39d8857dab4:
+    id: 'entity_bundle:node'
+    bundles:
+      product: product
+    negate: false
+    context_mapping:
+      node: node
+    uuid: d0aa291b-4215-46a0-96dd-a39d8857dab4
+selection_logic: and
+weight: -5
+relationships: {  }

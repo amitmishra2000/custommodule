@@ -1,0 +1,14 @@
+name: Aquifer 
+description: Custom content type configuration for IAI's aquifer
+package: Custom Aquifer Module
+type: module
+core: 8.x
+dependencies:
+  - colorbox
+  - file
+  - image
+  - menu_ui
+  - node
+  - taxonomy
+  - text
+  - user

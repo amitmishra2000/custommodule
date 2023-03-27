@@ -1,0 +1,14 @@
+uuid: 79678f49-d9ef-4fb9-8fdc-7b0549f19b1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.con
+  module:
+    - user
+id: user_add_role_action.con
+label: 'Add the Content Admin role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: con

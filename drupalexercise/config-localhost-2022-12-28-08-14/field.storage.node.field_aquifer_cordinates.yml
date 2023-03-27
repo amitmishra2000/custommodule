@@ -1,0 +1,21 @@
+uuid: f34579c4-4942-4c0d-9a14-2cde3e896f58
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_aquifer_cordinates
+field_name: field_aquifer_cordinates
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

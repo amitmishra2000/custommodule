@@ -1,0 +1,14 @@
+uuid: 6b4502bd-783d-442b-942f-7e92cd2c3a08
+name: 'Exercise Drupal'
+mail: testing@yopmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/8
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

@@ -1,0 +1,49 @@
+uuid: 531751ff-3372-4a9c-abcd-1e50887d4186
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.view_projects
+  module:
+    - ctools
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__view_projects_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:view_projects-block_1'
+settings:
+  id: 'views_block:view_projects-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      aquifer: aquifer
+      article: article
+      book: book
+      page: page
+      product: product
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      aquifer: aquifer
+      article: article
+      book: book
+      page: page
+      product: product
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

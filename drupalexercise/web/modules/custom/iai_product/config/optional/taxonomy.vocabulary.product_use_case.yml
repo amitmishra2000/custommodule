@@ -1,0 +1,8 @@
+uuid: 11245924-38a2-4626-b786-edb5d5258bc5
+langcode: en
+status: true
+dependencies: {  }
+name: 'Use case'
+vid: product_use_case
+description: ''
+weight: 0

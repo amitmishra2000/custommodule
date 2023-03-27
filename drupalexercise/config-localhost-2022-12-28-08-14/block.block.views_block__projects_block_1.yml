@@ -1,0 +1,36 @@
+uuid: 39e6e4de-958f-4fbe-9350-985ba99fc169
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.projects
+  module:
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__projects_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:projects-block_1'
+settings:
+  id: 'views_block:projects-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      aquifer: aquifer
+      article: article
+      book: book
+      page: page
+      product: product
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

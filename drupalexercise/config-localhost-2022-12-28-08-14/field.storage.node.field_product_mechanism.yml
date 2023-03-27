@@ -1,0 +1,20 @@
+uuid: 7ef3f1e4-f55c-49e0-b60f-51a166d378be
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_product_mechanism
+field_name: field_product_mechanism
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
